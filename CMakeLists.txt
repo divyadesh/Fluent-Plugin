@@ -29,7 +29,7 @@ add_subdirectory(src)
 add_subdirectory(zxing-cpp)
 
 if (FLUENTUI_BUILD_EXAMPLES)
-    add_subdirectory(sample-example)
+    add_subdirectory(example)
 endif ()
 
 set(FRAMELESSHELPER_BUILD_STATIC ON)
